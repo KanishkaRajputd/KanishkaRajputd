@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Kanishka rajput</h1>
+<h1 align="center">Hi 👋, I'm Kanishka Rajput</h1>
 <h3 align="center">A passionate full stack web developer</h3>
 
 - 💬 Ask me about **React,HTML,Css**
