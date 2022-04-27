@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **kanishka6393rajput@gmail.com**
 
-- 📄 Know about my experiences [Resume](Resume)
+- 📄 Know about my experiences Resume [https://docs.google.com/document/d/1aLpRlJQ1yt9rt7UL8zDnPMLUL0KWucsu7A2zbbFscJ4/edit?usp=sharing](https://docs.google.com/document/d/1aLpRlJQ1yt9rt7UL8zDnPMLUL0KWucsu7A2zbbFscJ4/edit?usp=sharing)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
