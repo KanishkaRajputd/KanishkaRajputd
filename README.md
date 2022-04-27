@@ -1,5 +1,5 @@
 
-<h1 align="center">Hi 👋, I'm Kanishka Rajput N</h1>
+<h1 align="center">Hi 👋, I'm Kanishka Rajput </h1>
 <h3 align="center">A passionate Full Stack Web Developer</h3>
 <a align="center" href="https://github.com/shikha-max/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=I'm+Aspiring+MERN+Stack+Developer;%20Enthusiastic%20and%20Motivated;I%20Always%20enjoy%20learning%20new%20things&center=true&width=800&height=60"></a>
 
