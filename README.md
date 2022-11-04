@@ -7,9 +7,9 @@
 
 <img align="right" src="https://camo.githubusercontent.com/fae4b674aa5c53e9e47f1e52309676275b456869cbc75367e4118b0c9d8d3ae4/68747470733a2f2f6166702e6f72672e706b2f77702d636f6e74656e742f75706c6f6164732f323032312f30382f616d617a6f6e2d76612e676966" width="320px">
 
-- 🌱 I’m currently learning **React**
+- 🌱 I’m currently learning **react-native **
 
-- 💬 Ask me about **JS, Html, CSS, Mongodb, ReactJS**
+- 💬 Ask me about **JS, Html, CSS, Mongodb, ReactJS,nextjs,Typescript,express,node**
 
 - 📫 How to reach me **kanishka6393rajput@gmail.com**
 
