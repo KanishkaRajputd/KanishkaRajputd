@@ -1,34 +1,70 @@
+# Avail wallet snap.
 
-<h1 align="center">Hi 👋, I'm Kanishka Rajput </h1>
-<h3 align="center">A passionate Full Stack Web Developer</h3>
-<a align="center" href="https://github.com/shikha-max/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=I'm+Aspiring+MERN+Stack+Developer;%20Enthusiastic%20and%20Motivated;I%20Always%20enjoy%20learning%20new%20things&center=true&width=800&height=60"></a>
+![](https://github.com/chainsafe/metamask-snap-polkadot/workflows/ci/badge.svg)
+![](https://img.shields.io/github/issues-raw/chainsafe/metamask-snap-polkadot)
+![](https://img.shields.io/github/license/chainsafe/metamask-snap-polkadot)
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rash6&label=Profile%20views&color=0e75b6&style=flat" alt="Kanishka" /> </p>
+This project uses the <a href='https://metamask.io/snaps' target='_blank'>[MetaMask Snaps]</a> framework to extend MetaMask
+capabilities to include support for Avail.
+<a href='https://docs.substrate.io/' target='_blank'>[Substrate]</a> - and FRAME-based blockchains in the
+<a href='https://www.polkadot.network/' target='_blank'>[Polkadot]</a> ecosystem.
 
-<img align="right" src="https://camo.githubusercontent.com/fae4b674aa5c53e9e47f1e52309676275b456869cbc75367e4118b0c9d8d3ae4/68747470733a2f2f6166702e6f72672e706b2f77702d636f6e74656e742f75706c6f6164732f323032312f30382f616d617a6f6e2d76612e676966" width="320px">
+## Documentation
 
-- 🌱 I’m currently learning **react-native **
+This snap is a built on top of polkadot snap by chainsafe, its architecture, integration steps and detailed API documentation for dApp
+developers is covered in the
+<a href='https://github.com/ChainSafe/metamask-snap-polkadot/wiki' target='_blank'>[project wiki]</a>, which also includes a
+usage guide for the example dApp
 
-- 💬 Ask me about **JS, Html, CSS, Mongodb, ReactJS,nextjs,Typescript,express,node**
+## Local Development
 
-- 📫 How to reach me **kanishka6393rajput@gmail.com**
+Developers who wish to use the snap locally must use <a href='https://metamask.io/flask/' target='_blank'>[MetaMask Flask]</a>;
+run the following commands from the project root to launch the
+<a href='https://github.com/ChainSafe/metamask-snap-polkadot/tree/master/packages/example' target='_blank'>[Polkadot Wallet Snap Example dApp]</a>.
+Please make sure to be using yarn for everything.
 
-- 👨‍💻 All of my projects are available at **https://kanishka-portfolio.vercel.app/**
+- `yarn install`
+- `cd packages/snap`
+- `rm -rf build && rm -rf dist && cd ../.. && yarn build:snap && yarn build:adapter && cd packages/snap && yarn mm-snap manifest --fix`
+- `yarn start` <br/>
 
-- 📄 Know about my experiences Resume [https://docs.google.com/document/d/1aLpRlJQ1yt9rt7UL8zDnPMLUL0KWucsu7A2zbbFscJ4/edit?usp=sharing](https://docs.google.com/document/d/1aLpRlJQ1yt9rt7UL8zDnPMLUL0KWucsu7A2zbbFscJ4/edit?usp=sharing)
+In another terminal
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/kanishka-rajput" target="blank" rel="noreferrer"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kanishka-rajput" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/KanishkaRajputdj" target="blank" rel="noreferrer"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="kanishkarajput" height="30" width="40" /></a>
-  <a href="https://leetcode.com/KanishkaRajputdj/" target="blank" rel="noreferrer"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="kanishka rajput1" height="30" width="40" /></a>
-</p>
+- `cd packages/example`
+- `yarn start`
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> </p>
+## Avail Snap Design
+![](./design.png)
+<a href='https://www.figma.com/file/03bs8ccbT7nR1a8KTGTZJ6/Metamask-Avail-Snap-team-library?type=design&node-id=0%3A1&mode=design&t=5gQcjL32P2mcXtuv-1' target='_blank'>[FIGMA Designs]</a>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=KanishkaRajputd&show_icons=true&locale=en&layout=compact" alt="" /></p>
+## Contribution Guidelines
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=KanishkaRajputd&show_icons=true&locale=en" alt="kanishka" /></p>
+### Rules
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=KanishkaRajputd&" alt="kanishka" /></p>
+Avail welcomes contributors from every background and skill level. Our mission is to build a community that's not only welcoming and friendly but also aligned with the best development practices. Interested in contributing to this project? Whether you've spotted an issue, have improvement ideas, or want to add new features, we'd love to have your input. Simply open a GitHub issue or submit a pull request to get started.
+
+1. Before asking any questions regarding how the project works, please read through all the documentation and install the project on your own local machine to try it and understand how it works. Please ask your questions in open channels Github and <a href='https://t.me/avail_uncharted/5' target='_blank'>[Telegram]</a>.
+
+2. To work on an issue, first, get approval from a maintainer or team member. You can request to be assigned by commenting on the issue in GitHub. This respects the efforts of others who may already be working on the same issue. Unapproved PRs may be declined.
+
+3. When assigned to an issue, it's expected that you're ready to actively work on it. After assignment, please provide a draft PR or update within one week. If you encounter delays, communicate with us to maintain your assignment.
+
+4. Got an idea or found a bug? Open an issue with the tags [New Feature] or [Bug]. Provide detailed information like reproduction steps (for bugs) or a basic feature proposal. The team will review and potentially assign you to it.
+
+5. Start a draft PR early in your development process, even with incomplete changes. This allows us to track progress, provide timely reviews, and assist you. Expect feedback on your drafts periodically.
+
+## License
+
+Copyright [2020] [ChainSafe Systems]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
