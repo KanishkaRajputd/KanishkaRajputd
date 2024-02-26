@@ -1,3 +1,4 @@
+<a href="https://example.com" target="_blank" rel="noopener noreferrer">Link Text</a>
 
 <h1 align="center">Hi 👋, I'm Kanishka Rajput </h1>
 <h3 align="center">A passionate Full Stack Web Developer</h3>
