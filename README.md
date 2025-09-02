@@ -11,7 +11,7 @@
 
 - 💬 Ask me about **JS, Html, CSS, Mongodb, ReactJS,nextjs,Typescript,express,node**
 
-- 📫 How to reach me **kanishka6393rajput@gmail.com**
+- 📫 How to reach me **kanishka6391rajput@gmail.com**
 
 - 👨‍💻 All of my projects are available at **https://kanishka-portfolio.vercel.app/**
 
